@@ -83,6 +83,8 @@ function App() {
   return (
     <div className="container"> 
     <div className="calc">
+    <h1>New app</h1>
+
       <h1 id="input">{input}</h1>
       <div>
         <button onClick={()=> handlebutton('C')}>C</button>
